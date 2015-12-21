@@ -299,7 +299,7 @@ footer {
 .copyright nav {
     padding: 0;
     margin-top: 19px;
-    margin-left: 388px;
+    float: right;
 }
 
 .copyright nav ul {
@@ -320,12 +320,15 @@ footer {
     margin: 0 7px;
 }
 
-.copyright nav ul li a {
+.copyright nav ul li a{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
     font-size: 12px;
     color: #93949d;
+}
 
+.copyright nav>ul>li>a:hover{
+    text-decoration: underline;
 }
 
 /* -----------------CLEARFIX------------- */
